@@ -1,0 +1,28 @@
+#cards {
+
+    div {
+        @include flex-center;
+        height: 38rem;
+        width: 25rem;
+        border-radius: .8rem;
+        background-color: $purple1;
+        box-shadow: 
+            .6rem .5rem 0 $purple2,
+            1.2rem 1.0rem 0 $purple3,
+            1.8rem 1.5rem 0 $purple4,
+            2.4rem 2rem 0 $purple5;
+        
+        &::before {
+            content: "";
+            background-color: $black;
+            width: 5rem;
+            height: 5rem;
+            transform: rotate(45deg);
+            box-shadow: 
+            14rem 2rem 0 -1rem $black,
+            -14rem -2rem 0 -1rem $black,
+        }
+
+    }
+
+}
