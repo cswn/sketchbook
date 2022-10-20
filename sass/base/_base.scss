@@ -13,3 +13,8 @@ body {
     box-sizing: border-box;
     background-color: whitesmoke;
 }
+
+img {
+    width: 100%;
+    @include flex-center;
+}

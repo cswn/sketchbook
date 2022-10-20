@@ -11,6 +11,12 @@ body {
   box-sizing: border-box;
   background-color: whitesmoke; }
 
+img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 #cards div {
   display: flex;
   justify-content: center;
@@ -28,11 +34,13 @@ body {
     transform: rotate(45deg);
     box-shadow: 14rem 2rem 0 -1rem #000, -14rem -2rem 0 -1rem #000; }
 
+#eye {
+  background-color: #000; }
+
 .sketch {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  width: 50%;
-  height: 50%;
-  padding: 3rem; }
+  width: 100%;
+  padding: 5rem; }
