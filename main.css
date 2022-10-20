@@ -34,6 +34,9 @@ img {
     transform: rotate(45deg);
     box-shadow: 14rem 2rem 0 -1rem #000, -14rem -2rem 0 -1rem #000; }
 
+#drip {
+  background-color: #b2b2ff; }
+
 #eye {
   background-color: #000; }
 
