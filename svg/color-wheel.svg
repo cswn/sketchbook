@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="-150 -150 300 300">
+
+    <defs>
+        <polygon id="slice" points="0,0 -90,122 90,122" />
+    </defs>
+    <g class="slices">
+        <use href="#slice" fill="#49f9ad" />
+        <use href="#slice" transform="rotate(72)" fill="#49edf9" />
+        <use href="#slice" transform="rotate(144)" fill="#49f955" />
+        <use href="#slice" transform="rotate(216)" fill="#49f9ad" />
+        <use href="#slice" transform="rotate(288)" fill="#49edf9" />
+    </g>
+
+    <style>
+        @keyframes spin {
+            0%   {
+            transform: rotate(180deg);
+            transform-origin: center;
+            }
+            100% {
+            transform: rotate(180deg);
+            }
+        }
+
+        .slices {
+            animation: spin 4s;
+            animation-iteration-count: infinite;
+        }
+
+    </style>
+
+</svg>

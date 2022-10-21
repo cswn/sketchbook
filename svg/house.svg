@@ -14,6 +14,7 @@
     <rect class="house__window" x="208" y="180" width="35" height="65" stroke="#221200" stroke-width="3" fill="#b6e2ff" />
     <rect x="11" y="285" width="278" height="15" fill="#775634" />
     <use href="#shine" fill="url(#shiny)" fill-opacity="0.6"  />
+    <circle class="house__door--knob" cx="160" cy="218" r="3" fill="#190d00" />
 
     <style type="text/css">
 
