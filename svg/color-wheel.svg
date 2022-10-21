@@ -3,6 +3,9 @@
     <defs>
         <polygon id="slice" points="0,0 -90,122 90,122" />
     </defs>
+
+    
+
     <g class="slices">
         <use href="#slice" fill="#49f9ad" />
         <use href="#slice" transform="rotate(72)" fill="#52fae3" />
@@ -10,6 +13,8 @@
         <use href="#slice" transform="rotate(216)" fill="#5cb5fa" />
         <use href="#slice" transform="rotate(288)" fill="#618cfa" />
     </g>
+
+    <circle cx="0" cy="0" r="130" stroke="#f5f5f5" stroke-width="45" fill="transparent" />
 
     <style>
         @keyframes spin {
@@ -19,7 +24,7 @@
         }
 
         .slices {
-            animation: spin 200ms linear;
+            animation: spin 250ms linear;
             animation-iteration-count: infinite;
         }
 
