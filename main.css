@@ -55,6 +55,9 @@ img {
   animation-iteration-count: infinite;
   overflow: hidden; }
 
+#terminal {
+  background-color: #5a5a5a; }
+
 .sketch {
   display: flex;
   justify-content: center;
