@@ -5,10 +5,10 @@
     </defs>
     <g class="slices">
         <use href="#slice" fill="#49f9ad" />
-        <use href="#slice" transform="rotate(72)" fill="#49edf9" />
-        <use href="#slice" transform="rotate(144)" fill="#49f955" />
-        <use href="#slice" transform="rotate(216)" fill="#49f9ad" />
-        <use href="#slice" transform="rotate(288)" fill="#49edf9" />
+        <use href="#slice" transform="rotate(72)" fill="#52fae3" />
+        <use href="#slice" transform="rotate(144)" fill="#57e1fa" />
+        <use href="#slice" transform="rotate(216)" fill="#5cb5fa" />
+        <use href="#slice" transform="rotate(288)" fill="#618cfa" />
     </g>
 
     <style>
@@ -19,7 +19,7 @@
         }
 
         .slices {
-            animation: spin 500ms linear;
+            animation: spin 200ms linear;
             animation-iteration-count: infinite;
         }
 
