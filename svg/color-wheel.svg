@@ -13,17 +13,13 @@
 
     <style>
         @keyframes spin {
-            0%   {
-            transform: rotate(180deg);
-            transform-origin: center;
-            }
             100% {
-            transform: rotate(180deg);
+                transform: rotate(360deg);
             }
         }
 
         .slices {
-            animation: spin 4s;
+            animation: spin 500ms linear;
             animation-iteration-count: infinite;
         }
 
