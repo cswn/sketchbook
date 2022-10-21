@@ -1,10 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="100" width="500">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
 
-  <ellipse cx="250" cy="50" rx="140" ry="50" fill="#fff" />
-  <circle cx="250" cy="50" r="55" stroke="#08085c" stroke-width="4" fill="#131355"/>
-  <circle cx="250" cy="50" r="45" fill="#0f0f7c"/>
-  <circle cx="250" cy="50" r="40" fill="#0000b3"/>
-  <circle cx="250" cy="50" r="12" fill="#000"/>
-  <rect x="252" y="40" width="8" height="4" rx="2" fill="#e6e6e6"/>
+  <ellipse cx="150" cy="100" rx="150" ry="74" fill="#fff" />
+  <circle cx="150" cy="100" r="76" stroke="#050544" stroke-width="8" fill="#08085c"/>
+  <circle cx="150" cy="100" r="63" fill="#0f0f7c"/>
+  <circle cx="150" cy="100" r="52" fill="#0000b3"/>
+  <circle class="pupil" cx="150" cy="100" r="22" fill="#000"/>
+  <rect x="155" y="85" width="14" height="8" rx="4" fill="#e6e6e6"/>
+
+  <style>
+  
+      @keyframes pupilGrowing {
+        0%   {
+          transform: scale(1);
+          transform-origin: center;
+          }
+        50%  {
+          transform: scale(1.8);
+          transform-origin: center;
+          }
+        100% {
+          transform: scale(1);
+          transform-origin: center;
+          }
+      }
+
+      .pupil {
+        animation: pupilGrowing 5s;
+        animation-iteration-count: infinite;
+      }
+
+  </style>
 
 </svg>
+<!-- 
+@keyframes pupilGrowing {
+        10%   {transform: scale(1.4);}
+        25%  {transform: scale(1.8);}
+        50%  {transform: scale(2);}
+        75%  {transform: scale(1.8);}
+        90% {transform: scale(1.4);}
+      } -->

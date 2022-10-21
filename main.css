@@ -12,7 +12,6 @@ body {
   background-color: whitesmoke; }
 
 img {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -40,10 +39,12 @@ img {
 #eye {
   background-color: #000; }
 
+#house {
+  background-color: cadetblue; }
+
 .sketch {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   width: 100%;
   padding: 5rem; }
