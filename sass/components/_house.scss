@@ -3,3 +3,19 @@
 }
 
 
+@keyframes windowShine {
+    0%   {
+    transform: translateX(0);
+    transform-origin: center;
+    }
+    100% {
+    transform:  translateX(100deg);
+    transform-origin: center;
+    }
+}
+
+.house__window {
+    animation: windowShine 500ms;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}

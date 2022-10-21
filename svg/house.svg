@@ -1,24 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
     <defs>
-        <clipPath id="stairs">
-            <polygon points="5 0 20 0 30 10 0 10" />
-        </clipPath>
+        <polygon id="shine" points="145,70 155,75 170,95 160,90" fill="#fff" fill-opacity="0.4" />
+
     </defs>
     
     <polygon class="house__roof" points="150,5 290,150 10,150" fill="#221200" />
     <rect class="house__main" x="25" y="145" width="250" height="180" fill="#221200" />
     <polygon class="house__main" points="150,20 275,150 275,270 25,270 25,150" fill="#33210e" />
-    <circle cx="150" cy="90" r="22" fill="#b6e2ff" stroke="#221200" stroke-width="2"/>
+    <circle class="house__window" cx="150" cy="90" r="22" fill="#b6e2ff" stroke="#221200" stroke-width="2"/>
     <rect class="house__porch" x="5" y="270" width="290" height="35" fill="#66421b" />
     <rect class="house__door" x="126" y="169" width="46" height="100" stroke="#66421b" stroke-width="5" fill="#775634" />
     <rect class="house__window" x="58" y="180" width="35" height="65" stroke="#221200" stroke-width="3" fill="#b6e2ff" />
     <rect class="house__window" x="208" y="180" width="35" height="65" stroke="#221200" stroke-width="3" fill="#b6e2ff" />
     <rect x="11" y="285" width="278" height="15" fill="#775634" />
+    <use href="#shine" fill="url(#shiny)" fill-opacity="0.6"  />
 
     <style type="text/css">
+
+    
+        @keyframes windowShine {
+            0%   {
+            transform: translateX(-1rem);
+            transform-origin: center;
+            }
+            100% {
+            transform:  translateX(1.4rem);
+            transform-origin: center;
+            }
+        }
+
+        <!-- #shine {
+            animation: windowShine 3s;
+            animation-iteration-count: infinite;
+            overflow: hidden;
+        } -->
+
+        <!-- .house__window {
+            position: absolute;
+        }
+
+        .house__window::before {
+            content: "";
+            backround-color: rgba(#fff, 0.4);
+            width: 10%;
+            height: 100%;
+            top: 0%;
+            left: 0%;
+            position: absolute;
+            transform: skew(45deg);
+        } -->
+
         .house__porch {
             clip-path: polygon(7% 0, 93% 0, 98% 40%, 98% 100%, 2% 100%, 2% 40%);
         }
+
     </style>
   
 </svg>
