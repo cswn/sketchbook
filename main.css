@@ -9,7 +9,7 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 img {
   display: flex;
@@ -57,6 +57,9 @@ img {
 
 #terminal {
   background-color: #5a5a5a; }
+
+#tv {
+  background-color: #d77fff; }
 
 .sketch {
   display: flex;

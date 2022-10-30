@@ -4,8 +4,6 @@
         <polygon id="slice" points="0,0 -90,122 90,122" />
     </defs>
 
-    
-
     <g class="slices">
         <use href="#slice" fill="#49f9ad" />
         <use href="#slice" transform="rotate(72)" fill="#52fae3" />
