@@ -32,11 +32,3 @@
   </style>
 
 </svg>
-<!-- 
-@keyframes pupilGrowing {
-        10%   {transform: scale(1.4);}
-        25%  {transform: scale(1.8);}
-        50%  {transform: scale(2);}
-        75%  {transform: scale(1.8);}
-        90% {transform: scale(1.4);}
-      } -->
