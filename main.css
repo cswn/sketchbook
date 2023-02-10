@@ -16,6 +16,14 @@ img {
   justify-content: center;
   align-items: center; }
 
+@font-face {
+  font-family: 'Satisfy';
+  src: url(../../Satisfy-Regular.ttf); }
+
+@font-face {
+  font-family: 'HYPNOTOAD';
+  src: url(fonts/hypnotoad.ttf); }
+
 #cards div {
   display: flex;
   justify-content: center;
