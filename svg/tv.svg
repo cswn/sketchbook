@@ -45,7 +45,7 @@
             src: url(../fonts/Satisfy-Regular.ttf);
         }
         @font-face {
-            font-family: 'HYPNOTOAD';
+            font-family: 'HYPNOTOAD1';
             src: url(../fonts/hypnotoad.ttf);
         }
         .hypnotoad {
